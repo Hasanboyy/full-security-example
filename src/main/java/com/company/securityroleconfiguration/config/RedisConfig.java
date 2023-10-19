@@ -23,7 +23,7 @@ public class RedisConfig {
     @Bean
     public RedisStandaloneConfiguration redisStandaloneConfiguration() {
         logger.info("connecting with redis");
-        return new RedisStandaloneConfiguration("localhost", 6379);
+        return new RedisStandaloneConfiguration("redis", 6379);
     }
 
     @Bean

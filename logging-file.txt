@@ -1,0 +1,93 @@
+2023-10-19 20:26:04 - Starting SecurityRoleConfigurationApplication using Java 19.0.2 with PID 5971 (/Users/hasanboy/IdeaProjects/Worked Folder/Simple Security/security-role-configuration/build/classes/java/main started by hasanboy in /Users/hasanboy/IdeaProjects/Worked Folder/Simple Security/security-role-configuration)
+2023-10-19 20:26:04 - No active profile set, falling back to 1 default profile: "default"
+2023-10-19 20:26:05 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 20:26:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 20:26:05 - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.UserSessionRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2023-10-19 20:26:05 - Finished Spring Data repository scanning in 126 ms. Found 3 JPA repository interfaces.
+2023-10-19 20:26:05 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 20:26:05 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 20:26:05 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.AuthorityRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:26:05 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.CardRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:26:05 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:26:05 - Finished Spring Data repository scanning in 23 ms. Found 1 Redis repository interfaces.
+2023-10-19 20:26:05 - Tomcat initialized with port(s): 8080 (http)
+2023-10-19 20:26:05 - Starting service [Tomcat]
+2023-10-19 20:26:05 - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-19 20:26:06 - Initializing Spring embedded WebApplicationContext
+2023-10-19 20:26:06 - Root WebApplicationContext: initialization completed in 1925 ms
+2023-10-19 20:26:06 - connecting with redis
+2023-10-19 20:26:06 - HikariPool-1 - Starting...
+2023-10-19 20:26:06 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@254513e8
+2023-10-19 20:26:06 - HikariPool-1 - Start completed.
+2023-10-19 20:26:06 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-19 20:26:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:26:08 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25bbca43, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74cd82f1, org.springframework.security.web.context.SecurityContextHolderFilter@4ed94e6a, org.springframework.security.web.header.HeaderWriterFilter@33ed6546, org.springframework.web.filter.CorsFilter@632a7680, org.springframework.security.web.authentication.logout.LogoutFilter@2150dc64, com.company.securityroleconfiguration.security.JwtFilter@59fea5f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7314f4cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c4fc610, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66e5441e, org.springframework.security.web.access.ExceptionTranslationFilter@d20e900, org.springframework.security.web.access.intercept.AuthorizationFilter@31fc1b6e]
+2023-10-19 20:26:08 - You are asking Spring Security to ignore Mvc [pattern='/v3/api-docs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-10-19 20:26:08 - Will not secure Mvc [pattern='/v3/api-docs/**']
+2023-10-19 20:26:09 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-19 20:26:09 - Started SecurityRoleConfigurationApplication in 5.792 seconds (process running for 6.856)
+2023-10-19 20:26:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:26:38 - HikariPool-1 - Shutdown initiated...
+2023-10-19 20:26:38 - HikariPool-1 - Shutdown completed.
+2023-10-19 20:26:40 - Starting SecurityRoleConfigurationApplication using Java 19.0.2 with PID 5998 (/Users/hasanboy/IdeaProjects/Worked Folder/Simple Security/security-role-configuration/build/classes/java/main started by hasanboy in /Users/hasanboy/IdeaProjects/Worked Folder/Simple Security/security-role-configuration)
+2023-10-19 20:26:40 - No active profile set, falling back to 1 default profile: "default"
+2023-10-19 20:26:42 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 20:26:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 20:26:42 - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.UserSessionRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2023-10-19 20:26:42 - Finished Spring Data repository scanning in 115 ms. Found 3 JPA repository interfaces.
+2023-10-19 20:26:42 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 20:26:42 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 20:26:42 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.AuthorityRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:26:42 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.CardRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:26:42 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:26:42 - Finished Spring Data repository scanning in 20 ms. Found 1 Redis repository interfaces.
+2023-10-19 20:26:42 - Tomcat initialized with port(s): 8080 (http)
+2023-10-19 20:26:42 - Starting service [Tomcat]
+2023-10-19 20:26:42 - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-19 20:26:42 - Initializing Spring embedded WebApplicationContext
+2023-10-19 20:26:42 - Root WebApplicationContext: initialization completed in 1903 ms
+2023-10-19 20:26:43 - connecting with redis
+2023-10-19 20:26:43 - HikariPool-1 - Starting...
+2023-10-19 20:26:43 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@67396475
+2023-10-19 20:26:43 - HikariPool-1 - Start completed.
+2023-10-19 20:26:43 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-19 20:26:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:26:45 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@70720b78, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@628f642d, org.springframework.security.web.context.SecurityContextHolderFilter@4f50e974, org.springframework.security.web.header.HeaderWriterFilter@996126b, org.springframework.web.filter.CorsFilter@355da59c, org.springframework.security.web.authentication.logout.LogoutFilter@51aa8c0f, com.company.securityroleconfiguration.security.JwtFilter@2bf3ec4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6223dbed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f40bb80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@381db99e, org.springframework.security.web.access.ExceptionTranslationFilter@78626209, org.springframework.security.web.access.intercept.AuthorizationFilter@5f59b6c5]
+2023-10-19 20:26:45 - You are asking Spring Security to ignore Mvc [pattern='/v3/api-docs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-10-19 20:26:45 - Will not secure Mvc [pattern='/v3/api-docs/**']
+2023-10-19 20:26:45 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-19 20:26:45 - Started SecurityRoleConfigurationApplication in 5.596 seconds (process running for 6.265)
+2023-10-19 20:27:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:27:19 - HikariPool-1 - Shutdown initiated...
+2023-10-19 20:27:19 - HikariPool-1 - Shutdown completed.
+2023-10-19 20:27:23 - Starting SecurityRoleConfigurationApplication using Java 19.0.2 with PID 6021 (/Users/hasanboy/IdeaProjects/Worked Folder/Simple Security/security-role-configuration/build/classes/java/main started by hasanboy in /Users/hasanboy/IdeaProjects/Worked Folder/Simple Security/security-role-configuration)
+2023-10-19 20:27:23 - No active profile set, falling back to 1 default profile: "default"
+2023-10-19 20:27:24 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 20:27:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 20:27:24 - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.UserSessionRepository; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2023-10-19 20:27:24 - Finished Spring Data repository scanning in 119 ms. Found 3 JPA repository interfaces.
+2023-10-19 20:27:24 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-19 20:27:24 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-19 20:27:24 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.AuthorityRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:27:24 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.CardRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:27:24 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.company.securityroleconfiguration.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-10-19 20:27:24 - Finished Spring Data repository scanning in 20 ms. Found 1 Redis repository interfaces.
+2023-10-19 20:27:25 - Tomcat initialized with port(s): 8080 (http)
+2023-10-19 20:27:25 - Starting service [Tomcat]
+2023-10-19 20:27:25 - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-19 20:27:25 - Initializing Spring embedded WebApplicationContext
+2023-10-19 20:27:25 - Root WebApplicationContext: initialization completed in 1974 ms
+2023-10-19 20:27:25 - connecting with redis
+2023-10-19 20:27:26 - HikariPool-1 - Starting...
+2023-10-19 20:27:26 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49153009
+2023-10-19 20:27:26 - HikariPool-1 - Start completed.
+2023-10-19 20:27:26 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-19 20:27:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:27:28 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@74cd82f1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@632a7680, org.springframework.security.web.context.SecurityContextHolderFilter@16c6d5a2, org.springframework.security.web.header.HeaderWriterFilter@54d62c35, org.springframework.web.filter.CorsFilter@66e5441e, org.springframework.security.web.authentication.logout.LogoutFilter@3f33c5e4, com.company.securityroleconfiguration.security.JwtFilter@42cc420b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8616368, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c8469fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1df77353, org.springframework.security.web.access.ExceptionTranslationFilter@14237e5, org.springframework.security.web.access.intercept.AuthorizationFilter@2f271ae2]
+2023-10-19 20:27:28 - You are asking Spring Security to ignore Mvc [pattern='/v3/api-docs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2023-10-19 20:27:28 - Will not secure Mvc [pattern='/v3/api-docs/**']
+2023-10-19 20:27:28 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-19 20:27:28 - Started SecurityRoleConfigurationApplication in 5.721 seconds (process running for 6.523)
+2023-10-19 20:28:11 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 20:28:11 - HikariPool-1 - Shutdown initiated...
+2023-10-19 20:28:11 - HikariPool-1 - Shutdown completed.

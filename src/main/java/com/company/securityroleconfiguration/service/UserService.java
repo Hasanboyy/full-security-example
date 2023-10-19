@@ -62,7 +62,7 @@ public class UserService implements UserDetailsService {
                     Authorities.builder()
                             .userId(saveUser.getId())
                             .username(saveUser.getUsername())
-                            .authority("USER")
+                            .authority("ROLE_USER")
                             .createdAt(LocalDateTime.now())
                             .build()
             );

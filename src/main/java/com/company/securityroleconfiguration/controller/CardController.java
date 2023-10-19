@@ -39,7 +39,7 @@ public class CardController {
             )
     })
     @PostMapping
-    @PreAuthorize(value = "hasAnyAuthority('ADMIN')")
+    @PreAuthorize(value = "hasAnyRole('ADMIN')")
     public ResponseDto<CardDto> create(@RequestBody RequestCardDto dto) {
         return this.cardService.create(dto);
     }
@@ -60,7 +60,7 @@ public class CardController {
             )
     })
     @GetMapping(value = "/{id}")
-    @PreAuthorize(value = "hasAnyAuthority('USER')")
+    @PreAuthorize(value = "hasAnyRole('USER', 'ADMIN')")
     public ResponseDto<CardDto> getCard(@PathVariable(value = "id") Integer cardId) {
         return this.cardService.getCard(cardId);
     }

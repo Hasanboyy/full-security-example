@@ -13,9 +13,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
                 title = "Security Role Configuration",
                 description = "Security Role Configuration"
         ),
-        servers = {
-                @Server(url = "http://localhost:8080") //--> localhost
-        }
+        servers = {@Server(url = "http://185.196.213.141:8002")}
+//        servers = {@Server(url = "http://localhost:8080")} //--> localhost
+//        servers = {@Server(url = "http://localhost:8002")} //--> localhost
 )
 public class SecurityRoleConfigurationApplication {
 
