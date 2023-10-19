@@ -32,14 +32,14 @@ springdoc:
   api-docs:
     path: /v3/api-docs
     enabled: true
-#logging:
-#  pattern:
-#    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
-#  file:
-#    name: logging-file.txt
-#  level:
-#    org.springframework.web: ERROR
-#    org.hibernate: ERROR
+logging:
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+  file:
+    name: logging-file.txt
+  level:
+    org.springframework.web: ERROR
+    org.hibernate: ERROR
 server:
   port: 8080
 secret:
