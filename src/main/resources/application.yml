@@ -1,0 +1,46 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    redis:
+      port: 6379
+      host: redis
+  main:
+    allow-circular-references: true
+  cache:
+    type: redis
+  security:
+    user:
+      name: user
+      password: root
+      roles: USER
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+    tryItOutEnabled: true
+    filter: true
+    tagsSorter: alpha
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+#logging:
+#  pattern:
+#    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+#  file:
+#    name: logging-file.txt
+#  level:
+#    org.springframework.web: ERROR
+#    org.hibernate: ERROR
+server:
+  port: 8080
+secret:
+  key: wergdhdnsgvrstmfcnbtxvztwnyressdyrxtxdbzvwtnxrtudmxjnbt
