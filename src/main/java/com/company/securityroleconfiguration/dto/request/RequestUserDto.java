@@ -13,7 +13,7 @@ public class RequestUserDto {
     private String lastname;
     @NotBlank(message = "Username cannot be null or empty!")
     private String username;
-    @NotBlank(message = "Username cannot be null or empty!")
+    @NotBlank(message = "Password cannot be null or empty!")
     private String password;
 
 }
