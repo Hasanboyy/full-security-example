@@ -13,8 +13,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-10-19T20:45:23+0500",
-    comments = "version: 1.4.2.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-8.3.jar, environment: Java 19.0.2 (Oracle Corporation)"
+    date = "2023-11-27T17:16:16+0500",
+    comments = "version: 1.4.2.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-8.3.jar, environment: Java 17.0.8 (Amazon.com Inc.)"
 )
 @Component
 public class UserMapperImpl extends UserMapper {

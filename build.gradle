@@ -39,6 +39,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	// Spring Security Test
+	testImplementation 'org.springframework.security:spring-security-test'
+	// Spring Security OAuth2 Test Add-ons
+//	testImplementation 'com.c4-soft.springaddons:spring-security-oauth2-test-addons:3.0.1'
 
 	runtimeOnly 'org.postgresql:postgresql'
 
